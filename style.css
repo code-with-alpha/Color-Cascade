@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: bisque;
+}
+.buttons {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+button {
+	height: 3rem;
+	width: 7rem;
+	cursor: pointer;
+	margin: 1rem;
+	border-radius: 0.5rem;
+	outline: 2px solid indigo;
+	background-color: pink;
+	color: indigo;
+	font-weight: 800;
+	font-size: larger;
+}
